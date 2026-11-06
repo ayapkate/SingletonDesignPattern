@@ -18,7 +18,6 @@ public class Individual {
         this.queueNumber = queueNumber;
     }
 
-    // Added toString for easy printing
     @Override
     public String toString() {
         return "[" + queueNumber + "] " + name;
